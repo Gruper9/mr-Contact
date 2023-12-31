@@ -6,6 +6,7 @@ import './assets/style/main.css'
 import { HomePage } from './pages/HomePage'
 import { AboutUs } from './pages/AboutUs'
 import { store } from './store/store'
+import { ContactDetails } from '../src/pages/contactDetails'
 
 export function App() {
 
@@ -17,6 +18,7 @@ export function App() {
             <Routes>
               <Route element={<HomePage />} path="/" />
               <Route element={<AboutUs />} path="/about" />
+              <Route element={<ContactDetails />} path="/contact/:contactId" />
 
             </Routes>
           </main>
