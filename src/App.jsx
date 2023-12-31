@@ -19,7 +19,6 @@ export function App() {
               <Route element={<HomePage />} path="/" />
               <Route element={<AboutUs />} path="/about" />
               <Route element={<ContactDetails />} path="/contact/:contactId" />
-
             </Routes>
           </main>
         </section>
