@@ -1,6 +1,6 @@
 import { ContactPreview } from "./ContactPreview"
 
-export function ContactIndex({ contacts }) {
+export function ConatactList({ contacts }) {
   return (
     <section>
       <h1>Contancts List</h1>

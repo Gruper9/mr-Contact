@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import { loadContacts } from "../store/actions/contact.actions"
+import { ConatactList } from "../cmps/ConatactList"
 
 export function ContactIndex() {
   useEffect(() => {
@@ -10,4 +11,8 @@ export function ContactIndex() {
     }
   }, [])
 }
-return <div>hey</div>
+return (
+  <div>
+    <ConatactList />
+  </div>
+)

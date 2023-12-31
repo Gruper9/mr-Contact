@@ -9,12 +9,14 @@ import { ContactDetails } from "../src/pages/contactDetails"
 import { ContactIndex } from "./pages/ContactIndex"
 import { EditContact } from "./pages/EditContact"
 import { AppFooter } from "./cmps/AppFooter"
+import { AppHeader } from "./cmps/AppHeader"
 
 export function App() {
   return (
     <Provider store={store}>
       <Router>
         <section className="main-layout app">
+          <AppHeader />
           <main>
             <Routes>
               <Route element={<HomePage />} path="/" />
