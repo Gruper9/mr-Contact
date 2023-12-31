@@ -54,7 +54,7 @@ function save(contact) {
 }
 
 function getEmptyContact(title = "", price = 0) {
-  return { id: "", title, price }
+  return { id: "", name="" }
 }
 
 function getFilterBy() {
@@ -69,7 +69,7 @@ function setFilterBy(filterBy = {}) {
   return filterBy
 }
 function getDefaultFilter() {
-  return { txt: "", price: "", publishedDate: "" }
+  return { name: "" }
 }
 
 function getNextContactId(contactId) {
