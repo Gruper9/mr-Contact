@@ -5,6 +5,7 @@ import "./assets/style/main.css"
 import { HomePage } from "./pages/HomePage"
 import { AboutUs } from "./pages/AboutUs"
 import { store } from "./store/store"
+import { ContactDetails } from "../src/pages/contactDetails"
 
 export function App() {
   return (
