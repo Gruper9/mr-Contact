@@ -10,9 +10,10 @@ export function ContactIndex() {
       console.log("Something went wrong,try again")
     }
   }, [])
+
+  return (
+    <section>
+      <ConatactList />
+    </section>
+  )
 }
-return (
-  <div>
-    <ConatactList />
-  </div>
-)
