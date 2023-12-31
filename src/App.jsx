@@ -7,6 +7,7 @@ import { AboutUs } from "./pages/AboutUs"
 import { store } from "./store/store"
 import { ContactDetails } from "../src/pages/contactDetails"
 import { ContactIndex } from "./pages/ContactIndex"
+import { AppFooter } from "./cmps/AppFooter"
 
 export function App() {
   return (
@@ -21,6 +22,7 @@ export function App() {
               <Route element={<ContactDetails />} path="/contact/:contactId" />
             </Routes>
           </main>
+          <AppFooter />
         </section>
       </Router>
     </Provider>
