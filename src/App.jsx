@@ -6,6 +6,7 @@ import { HomePage } from "./pages/HomePage"
 import { AboutUs } from "./pages/AboutUs"
 import { store } from "./store/store"
 import { ContactDetails } from "../src/pages/contactDetails"
+import { ContactIndex } from "./pages/ContactIndex"
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
             <Routes>
               <Route element={<HomePage />} path="/" />
               <Route element={<AboutUs />} path="/about" />
+              <Route element={<ContactIndex />} path="/contact" />
             </Routes>
           </main>
         </section>
