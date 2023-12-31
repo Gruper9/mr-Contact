@@ -7,6 +7,7 @@ import { AboutUs } from "./pages/AboutUs"
 import { store } from "./store/store"
 import { ContactDetails } from "../src/pages/contactDetails"
 import { ContactIndex } from "./pages/ContactIndex"
+import { EditContact } from "./pages/EditContact"
 import { AppFooter } from "./cmps/AppFooter"
 
 export function App() {
@@ -20,6 +21,7 @@ export function App() {
               <Route element={<AboutUs />} path="/about" />
               <Route element={<ContactIndex />} path="/contact" />
               <Route element={<ContactDetails />} path="/contact/:contactId" />
+              <Route element={<EditContact />} path="/edit/:contactId" />
             </Routes>
           </main>
           <AppFooter />
